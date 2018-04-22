@@ -12,6 +12,8 @@
 		E21A5669208CD82B004FE57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21A5667208CD82B004FE57A /* Main.storyboard */; };
 		E21A566B208CD82C004FE57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21A566A208CD82C004FE57A /* Assets.xcassets */; };
 		E21A566E208CD82C004FE57A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21A566C208CD82C004FE57A /* LaunchScreen.storyboard */; };
+		E21A5676208CD97F004FE57A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A5675208CD97F004FE57A /* SecondViewController.swift */; };
+		E21A5678208CDF4A004FE57A /* splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E21A5677208CDF4A004FE57A /* splash_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E21A566A208CD82C004FE57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21A566D208CD82C004FE57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21A566F208CD82C004FE57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21A5675208CD97F004FE57A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E21A5677208CDF4A004FE57A /* splash_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		E21A5662208CD82A004FE57A /* Intent */ = {
 			isa = PBXGroup;
 			children = (
+				E21A5677208CDF4A004FE57A /* splash_logo.png */,
 				E21A5663208CD82B004FE57A /* AppDelegate.swift */,
 				E21A5665208CD82B004FE57A /* ViewController.swift */,
 				E21A5667208CD82B004FE57A /* Main.storyboard */,
 				E21A566A208CD82C004FE57A /* Assets.xcassets */,
 				E21A566C208CD82C004FE57A /* LaunchScreen.storyboard */,
 				E21A566F208CD82C004FE57A /* Info.plist */,
+				E21A5675208CD97F004FE57A /* SecondViewController.swift */,
 			);
 			path = Intent;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21A566E208CD82C004FE57A /* LaunchScreen.storyboard in Resources */,
+				E21A5678208CDF4A004FE57A /* splash_logo.png in Resources */,
 				E21A566B208CD82C004FE57A /* Assets.xcassets in Resources */,
 				E21A5669208CD82B004FE57A /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21A5676208CD97F004FE57A /* SecondViewController.swift in Sources */,
 				E21A5666208CD82B004FE57A /* ViewController.swift in Sources */,
 				E21A5664208CD82B004FE57A /* AppDelegate.swift in Sources */,
 			);
